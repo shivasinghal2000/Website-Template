@@ -21,6 +21,7 @@ body{
     left: 0%;
     top: 0%;
     right: 0%;
+    height: 7%;
     /*use % sign not px to avoid out of flow due to position relative*/
 }
 a{
@@ -48,6 +49,7 @@ and (max-width: 600px)
     align-items: center;
     justify-content: center;
     height: 50vh;
+    margin-top: 50px;
     /*vh sets height more responive as per screen height changes. It will assign 50% of the original screen size */
 }
 .container img{
